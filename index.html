@@ -16,16 +16,11 @@
 
 <body>
     <h1>Weather Dashboard</h1>
-
-    <!-- add the bootstrapp for the layout here-->
     <div class="row">
-        <!-- TODO: put search row in here -->
-
         <div class="col-4">
             <h4 class="search-margin">Search for a City:</h4>
-
             <div class="input-group mb-3">
-                <input type="text" class="form-control input-field" placeholder="City name here"
+                <input type="text" class="form-control input-field" name="input-field" placeholder="City name here"
                     aria-label="City name here" aria-describedby="basic-addon2">
                 <div class="input-group-append">
                     <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
@@ -56,54 +51,70 @@
 
     </div>
 
-
-    <!-- add cards for the weather here -->
-    <!-- TODO: also need to create a class for each individual card so the 5 day weather forcast can be assigned to them -->
     <h4 class="forcast-margin">5 Day Forcast</h4>
     <div class="row">
         <div class="col-sm-2">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">DATE HERE</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <h5 class="card-title one-date"></h5>
+                    <ul>
+                        <li class="card-symbol-one"></li>
+                        <li class="card-temp-one"></li>
+                        <li class="card-humidity-one"></li>
+                    </ul>
                 </div>
             </div>
         </div>
         <div class="col-sm-2">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">DATE HERE</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <h5 class="card-title two-date"></h5>
+                    <ul>
+                        <li class="card-symbol-two"></li>
+                        <li class="card-temp-two"></li>
+                        <li class="card-humidity-two"></li>
+                    </ul>
                 </div>
             </div>
         </div>
         <div class="col-sm-2">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">DATE HERE</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <h5 class="card-title three-date"></h5>
+                    <ul>
+                        <li class="card-symbol-three"></li>
+                        <li class="card-temp-three"></li>
+                        <li class="card-humidity-three"></li>
+                    </ul>
                 </div>
             </div>
         </div>
         <div class="col-sm-2">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">DATE HERE</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <h5 class="card-title four-date"></h5>
+                    <ul>
+                        <li class="card-symbol-four"></li>
+                        <li class="card-temp-four"></li>
+                        <li class="card-humidity-four"></li>
+                    </ul>
                 </div>
             </div>
         </div>
         <div class="col-sm-2">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">DATE HERE</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <h5 class="card-title five-date"></h5>
+                    <ul>
+                        <li class="card-symbol-five"></li>
+                        <li class="card-temp-five"></li>
+                        <li class="card-humidity-five"></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- here are the links to the js and bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
