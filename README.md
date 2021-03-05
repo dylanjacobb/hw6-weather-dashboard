@@ -1,7 +1,5 @@
 # hw6-weather-dashboard
 
-Going to ask for a resubmission in two weeks once I've had time to grasp much of the concepts better
-
 ## **Project Description**
 
 For this project we wre tasked with creating a weather dashboard that correctly displayed the weather depending on what city a user searched for. We were tasked with the following assingments:
@@ -15,6 +13,6 @@ For this project we wre tasked with creating a weather dashboard that correctly 
 
 Here's the link to the Weather Dashboard website: https://dylanjacobb.github.io/hw6-weather-dashboard/
 
-Here's a a screenshot of the unfinished webpage:
+Here's a a screenshot of the webpage:
 
 ![webpage](https://user-images.githubusercontent.com/75706156/109103160-5d0c8280-76f8-11eb-9841-2ec4bd16f85f.png)
