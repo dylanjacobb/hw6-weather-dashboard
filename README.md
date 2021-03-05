@@ -15,4 +15,4 @@ Here's the link to the Weather Dashboard website: https://dylanjacobb.github.io/
 
 Here's a a screenshot of the webpage:
 
-![webpage](https://user-images.githubusercontent.com/75706156/109103160-5d0c8280-76f8-11eb-9841-2ec4bd16f85f.png)
+![webpage](images/website.png)
